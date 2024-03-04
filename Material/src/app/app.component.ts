@@ -3,7 +3,8 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+// import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -12,7 +13,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     CommonModule,
     // BrowserAnimationsModule,
     // NoopAnimationsModule,
-    MatCheckboxModule,
+    // MatCheckboxModule,
+    MatRadioModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
