@@ -11,5 +11,5 @@ import { CommonModule } from '@angular/common';
 })
 export class AppComponent {
   title = 'Angular app';
-  courses = [1, 2];
+  viewMode = 'map';
 }
