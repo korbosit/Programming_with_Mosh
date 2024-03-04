@@ -1,0 +1,6 @@
+<mat-checkbox
+  #showDetails
+  [checked]="isChecked"
+  (change)="onChange($event)"
+>Show Details</mat-checkbox>
+<div *ngIf="showDetails.checked">Some details...</div>
