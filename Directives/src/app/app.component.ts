@@ -10,6 +10,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'Angular app';
-  viewMode = 'map';
+  courses = [
+    { id: 1, name: 'Course 1' },
+    { id: 2, name: 'Course 2' },
+    { id: 3, name: 'Course 3' },
+  ];
 }
